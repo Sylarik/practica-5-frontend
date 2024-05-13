@@ -1,0 +1,108 @@
+
+
+.modal {
+  display: flex; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.films {
+  display: grid;
+  justify-content: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.film {
+  /*background: url("https://i.gifer.com/3q62.gif") center;*/
+  background-color: rgb(237, 237, 237); 
+  background-position: top, cover, center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+
+  /*background-color: #e24545;*/
+  color: rgb(0, 0, 0);
+  /*text-align: center;*/
+
+  border-radius: 10px;
+  
+  border: solid 2px rgb(0, 0, 0);
+  overflow: hidden;
+
+  
+  justify-content: space-between;
+
+  
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+
+  margin: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 90%;
+  
+ 
+}
+
+img.foto {
+  height: 330px;
+  width: 330px;
+  object-fit: cover; /* Recorta la imagen para que llene el contenedor */
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+body {
+  background: url("https://img.freepik.com/foto-gratis/fondo-papel-viejo-vendimia-grunge_1373-431.jpg?w=1380&t=st=1715635380~exp=1715635980~hmac=e029dc01d731a32141fa00ecf94d4b9bf7b8ff06f108631ce1f532bbbf1c7d36");
+  
+}
+
+.filtrar {
+  background-color: #fabada;
+
+  margin: 10px;
+  width: 50%;
+}
+
+.filtrar * {
+  margin: 10px;
+}
